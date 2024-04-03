@@ -14,8 +14,8 @@
         android:layout_margin="15dp"
         android:id="@+id/ll_">
     <ImageView
-        android:layout_width="260dp"
-        android:layout_height="320dp"
+        android:layout_width="220dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
         android:background="@drawable/ic_launcher_background"
         android:id="@+id/iv_face"
@@ -24,8 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
     <FrameLayout
-        android:layout_width="260dp"
-        android:layout_height="100dp"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
         app:layout_constraintTop_toBottomOf="@id/iv_face"
         app:layout_constraintStart_toStartOf="@id/iv_face"
         android:background="@color/white"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="status"
-        android:textSize="20sp"
+        android:textSize="14sp"
         android:textColor="@color/grey"
         android:layout_marginTop="5dp"
         android:layout_marginStart="10dp"
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name"
-        android:textSize="30sp"
+        android:textSize="25sp"
         android:layout_marginStart="10dp"
         android:textColor="@color/black"
         android:layout_marginTop="23dp"

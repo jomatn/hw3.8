@@ -10,6 +10,15 @@
         android:id="@+id/cardFragment"
         android:name="com.example.hw38.CardFragment"
         android:label="fragment_card"
-        tools:layout="@layout/fragment_card" />
+        tools:layout="@layout/fragment_card" >
+        <action
+            android:id="@+id/action_cardFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.hw38.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
 
 </navigation>
